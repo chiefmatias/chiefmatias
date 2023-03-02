@@ -1,6 +1,6 @@
 # Hi, I'm Sérgio Matias 👋
 
-[![GitHub followers](https://img.shields.io/github/followers/your_username?style=social)](https://github.com/chiefmatias)
+[![GitHub followers](https://img.shields.io/github/followers/chiefmatias?style=social)](https://github.com/chiefmatias)
 
 ## About Me
 
