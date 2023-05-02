@@ -15,7 +15,7 @@ If you came to my profile, you probably want to see some of my abilities. Well, 
 2. MummySweeper
     - Minesweeper game that lacks frontend beauty because I completly overestimated tkinter and that side is on hold. On another note, the logic in the background is something I am proud of.
 3. TaskGenie 
-    - Still in progress. Task management application with a focus on simplicity. My goal is to create an application that meets my needs and can also be easily integrated into other applications. Don't ask me why, but I simply felt the urge to integrate a linked list datastructure into the project (they deserve love too!)
+    (https://taskgenie.onrender.com/)
 
 
 <!--
