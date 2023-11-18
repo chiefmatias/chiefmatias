@@ -6,18 +6,16 @@
 
 I've always been a problem-solver, and I believe that software development is the perfect outlet for my curiosity and creativity. I love the process of breaking down complex problems into smaller, more manageable pieces and working to find the best solution.
 
+```python
+import datetime
+import random
 
-<!--
-**chiefmatias/chiefmatias** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+def get_greeting():
+    current_hour = datetime.datetime.now().hour
+    if 5 <= current_hour < 12:
+        return "Good morning!"
+    elif 12 <= current_hour < 18:
+        return "Good afternoon!"
+    else:
+        return "Good evening!"
+```
