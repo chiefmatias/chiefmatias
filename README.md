@@ -7,15 +7,17 @@
 I've always been a problem-solver, and I believe that software development is the perfect outlet for my curiosity and creativity. I love the process of breaking down complex problems into smaller, more manageable pieces and working to find the best solution.
 
 ```python
-import datetime
+import builtins
 import random
 
-def get_greeting():
-    current_hour = datetime.datetime.now().hour
-    if 5 <= current_hour < 12:
-        return "Good morning!"
-    elif 12 <= current_hour < 18:
-        return "Good afternoon!"
-    else:
-        return "Good evening!"
+def random_exception():
+    # List of common built-in exceptions
+    exceptions = [exc for exc in vars(builtins).values() if isinstance(exc, type) and issubclass(exc, BaseException)]
+
+    chosen_exception = random.choice(exceptions)
+
+    raise chosen_exception
+
+if __name__ == "__main__":
+    random_exception()
 ```
