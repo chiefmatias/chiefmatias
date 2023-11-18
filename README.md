@@ -11,7 +11,6 @@ import builtins
 import random
 
 def random_exception():
-    # List of common built-in exceptions
     exceptions = [exc for exc in vars(builtins).values() if isinstance(exc, type) and issubclass(exc, BaseException)]
 
     chosen_exception = random.choice(exceptions)
