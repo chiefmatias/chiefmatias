@@ -1,4 +1,4 @@
-# Hi, I'm Sérgio Matias 👋
+# Hi, I'm Sérgio 👋
 
 [![GitHub followers](https://img.shields.io/github/followers/chiefmatias?style=social)](https://github.com/chiefmatias)
 
