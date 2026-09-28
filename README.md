@@ -1,6 +1,9 @@
-# Hi, I'm Sérgio 👋
+# chiefmatias
 
-Software Engineer building **geospatial and satellite systems**.
+Making satellites and maps agree on where things are.
 
-My work spans satellite feasibility and mission planning, orbital data processing,
-backend APIs, and the infrastructure that supports operational systems.
+```python
+try:
+    optimize()
+except Exception:
+    blame("the coordinate system")
